@@ -567,7 +567,7 @@ var publicMethods = {
 		}
 
 		_shout('firstUpdate');
-		_currentItemIndex = _currentItemIndex || _options.index || 0;
+		_currentItemIndex = _options.index || 0;
 		// validate index
 		if( isNaN(_currentItemIndex) || _currentItemIndex < 0 || _currentItemIndex >= _getNumItems() ) {
 			_currentItemIndex = 0;
